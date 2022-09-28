@@ -41,7 +41,7 @@ class PeliculasController: UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 65
     }
-    
+     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destino = segue.destination as! DetallesPeliculaController
         destino.peliculas = peliculas[0]

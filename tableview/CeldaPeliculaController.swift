@@ -13,4 +13,4 @@ class CeldaPeliculaController : UITableViewCell {
     @IBOutlet weak var lblTitulo: UILabel!
     @IBOutlet weak var lblDirector: UILabel!
     @IBOutlet weak var lblAño: UILabel!
-}
+} 

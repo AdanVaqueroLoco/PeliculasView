@@ -18,7 +18,7 @@ class DetallesPeliculaController : UIViewController {
         self.title = "Detalles de película"
         
         if pelicula != nil {
-            self.title = pelicula?.titulo
+            self.title = pelicula?.titulo 
         }
     }
 }
